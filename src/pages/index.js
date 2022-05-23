@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Scroller from "../components/Scroller";
 import ProductFeed from "../components/ProductFeed";
+import Footer from "../components/Footer";
 
 export default function Home({products}) {
   return (
@@ -17,6 +18,7 @@ export default function Home({products}) {
             <Scroller></Scroller>
             <ProductFeed products={products}></ProductFeed>
         </main>
+        <Footer></Footer>
     </div>
   );
 }

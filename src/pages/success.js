@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import { CheckCircleIcon } from "@heroicons/react/solid";
 import { useRouter  } from "next/router";
+import Footer from "../components/Footer";
 
 function success() {
     const router = useRouter();
@@ -22,6 +23,7 @@ function success() {
                             className="button mt-8"> Mes achats</button>
                 </div>
             </main>
+            <Footer/>
         </div>
     )
 }

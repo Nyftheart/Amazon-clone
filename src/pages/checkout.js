@@ -7,6 +7,7 @@ import Currency from "react-currency-formatter";
 import {useSession} from "next-auth/react";
 import {loadStripe} from "@stripe/stripe-js";
 import axios from "axios";
+import Footer from "../components/Footer";
 const stripePromise = loadStripe(process.env.stripe_public_key)
 
 function Checkout(){
@@ -85,6 +86,7 @@ function Checkout(){
                     )}
                 </div>
             </main>
+            <Footer></Footer>
         </div>
     )
 }
