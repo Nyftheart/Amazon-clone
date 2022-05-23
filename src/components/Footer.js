@@ -44,7 +44,7 @@ function Footer() {
             </div>
             <div className="flex text-sm p-3 space-x-3 w-full justify-center bg-amazon_blue">
                 <p className="flex text-gray-300">Made By </p>
-                <h1 className="link text-gray-300 font-bold">Aman Janwani</h1>
+                <h1 className="link text-gray-300 font-bold">NyftHeart</h1>
             </div>
         </div>
     )
